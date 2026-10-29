@@ -1,0 +1,223 @@
+{
+  "resources": [
+    {
+      "id": "r1",
+      "title": "Electronics Prototyping Lab",
+      "category": "Laboratory",
+      "location": "Innovation Block · Room 204",
+      "institution": "Parul Innovation Hub",
+      "owner": "Dr. Meera Shah",
+      "description": "A supervised bench for circuit prototyping, soldering and microcontroller projects.",
+      "image": "lab",
+      "hourlyRate": 0,
+      "capacity": 8,
+      "available": true,
+      "verification": "Verified",
+      "requirements": [
+        "Safety induction",
+        "Staff supervision"
+      ],
+      "equipment": [
+        "Oscilloscopes",
+        "Soldering stations",
+        "Bench power supplies"
+      ],
+      "bookings": 12,
+      "fairUseLimit": 4
+    },
+    {
+      "id": "r2",
+      "title": "Mirrorless Camera Kit",
+      "category": "Media Equipment",
+      "location": "Media Centre · Desk 3",
+      "institution": "Creative Commons Studio",
+      "owner": "Rohan Patel",
+      "description": "Camera body, two lenses, tripod and audio kit for student projects and community storytelling.",
+      "image": "camera",
+      "hourlyRate": 120,
+      "capacity": 1,
+      "available": true,
+      "verification": "Verified",
+      "requirements": [
+        "Valid student or member ID",
+        "Return condition photos"
+      ],
+      "equipment": [
+        "Camera body",
+        "24–70mm lens",
+        "Tripod",
+        "Microphone"
+      ],
+      "bookings": 7,
+      "fairUseLimit": 2
+    },
+    {
+      "id": "r3",
+      "title": "Rapid Prototyping 3D Printer",
+      "category": "Fabrication",
+      "location": "Makerspace · Bay A",
+      "institution": "Parul Makerspace",
+      "owner": "Aarav Desai",
+      "description": "FDM printer for functional prototypes. Filament supplied for small academic prints.",
+      "image": "printer",
+      "hourlyRate": 60,
+      "capacity": 2,
+      "available": true,
+      "verification": "Verified",
+      "requirements": [
+        "3D printing induction",
+        "Approved materials only"
+      ],
+      "equipment": [
+        "FDM printer",
+        "PLA filament",
+        "Slicer workstation"
+      ],
+      "bookings": 19,
+      "fairUseLimit": 3
+    },
+    {
+      "id": "r4",
+      "title": "Team Collaboration Room",
+      "category": "Workspace",
+      "location": "Library · Floor 2",
+      "institution": "Central Library",
+      "owner": "Library Operations",
+      "description": "Bookable group room with display, whiteboard and hybrid meeting equipment.",
+      "image": "room",
+      "hourlyRate": 0,
+      "capacity": 10,
+      "available": true,
+      "verification": "Verified",
+      "requirements": [
+        "Institution email",
+        "Leave room tidy"
+      ],
+      "equipment": [
+        "Display",
+        "Whiteboard",
+        "Video conferencing"
+      ],
+      "bookings": 22,
+      "fairUseLimit": 2
+    },
+    {
+      "id": "r5",
+      "title": "Portable Audio Recording Kit",
+      "category": "Media Equipment",
+      "location": "Performing Arts Wing · Store 1",
+      "institution": "Creative Commons Studio",
+      "owner": "Nisha Kulkarni",
+      "description": "Portable recorder and microphones for interviews, podcasts and field research.",
+      "image": "audio",
+      "hourlyRate": 80,
+      "capacity": 1,
+      "available": true,
+      "verification": "Verified",
+      "requirements": [
+        "Equipment handling checklist"
+      ],
+      "equipment": [
+        "Recorder",
+        "2 microphones",
+        "Headphones"
+      ],
+      "bookings": 4,
+      "fairUseLimit": 2
+    },
+    {
+      "id": "r6",
+      "title": "Materials Testing Bench",
+      "category": "Laboratory",
+      "location": "Engineering Lab · Room 118",
+      "institution": "Applied Research Centre",
+      "owner": "Lab Supervisor",
+      "description": "Supervised materials testing station for approved coursework and research projects.",
+      "image": "testing",
+      "hourlyRate": 150,
+      "capacity": 3,
+      "available": true,
+      "verification": "Pending review",
+      "requirements": [
+        "Relevant lab training",
+        "Supervisor approval",
+        "PPE required"
+      ],
+      "equipment": [
+        "Hardness tester",
+        "Digital calipers",
+        "PPE"
+      ],
+      "bookings": 9,
+      "fairUseLimit": 2
+    }
+  ],
+  "bookings": [
+    {
+      "id": "0dd97511-bfbe-465c-965c-b1efd1a90ede",
+      "resourceId": "r1",
+      "resourceTitle": "Electronics Prototyping Lab",
+      "userName": "ResourceHub Admin",
+      "email": "vedantkadam875@gmail.com",
+      "purpose": "Course project",
+      "startAt": "2026-10-31T23:31",
+      "endAt": "2026-11-10T22:32",
+      "status": "Checked out",
+      "createdAt": "2026-10-29T12:58:36.071Z",
+      "trainingConfirmed": true,
+      "conditionBefore": "Condition checked at handover",
+      "conditionAfter": null,
+      "updatedAt": "2026-10-29T12:58:50.207Z"
+    }
+  ],
+  "incidents": [],
+  "audit": [
+    {
+      "id": "77f91570-51b2-44a9-8bc7-80458fa319d6",
+      "action": "BOOKING_CHECKED_OUT",
+      "actor": "ResourceHub Admin",
+      "detail": "Electronics Prototyping Lab: Checked out",
+      "entityId": "0dd97511-bfbe-465c-965c-b1efd1a90ede",
+      "at": "2026-10-29T12:58:50.207Z"
+    },
+    {
+      "id": "6e4646e3-1077-4469-9da6-a39a47ec7c6d",
+      "action": "BOOKING_APPROVED",
+      "actor": "ResourceHub Admin",
+      "detail": "Electronics Prototyping Lab: Approved by resource owner",
+      "entityId": "0dd97511-bfbe-465c-965c-b1efd1a90ede",
+      "at": "2026-10-29T12:58:43.646Z"
+    },
+    {
+      "id": "25c1717d-6008-48a1-b314-c0f26ba2808b",
+      "action": "BOOKING_REQUESTED",
+      "actor": "ResourceHub Admin",
+      "detail": "Pending: Electronics Prototyping Lab",
+      "entityId": "0dd97511-bfbe-465c-965c-b1efd1a90ede",
+      "at": "2026-10-29T12:58:36.071Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Demo Student",
+      "email": "student@demo.com",
+      "role": "Student",
+      "verified": true
+    },
+    {
+      "id": "u2",
+      "name": "Demo Owner",
+      "email": "owner@demo.com",
+      "role": "Resource Owner",
+      "verified": true
+    },
+    {
+      "id": "u3",
+      "name": "Institution Admin",
+      "email": "admin@demo.com",
+      "role": "Institution Admin",
+      "verified": true
+    }
+  ]
+}
